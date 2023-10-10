@@ -1,0 +1,10 @@
+.Container {
+  /* border: 2px solid red; */
+  /* height: 80px; */
+  padding: 10px;
+  display: flex;
+  flex-flow: wrap;
+}
+h1 {
+  text-align: center;
+}
