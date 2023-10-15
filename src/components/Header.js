@@ -5,21 +5,32 @@ function Header() {
   return (
     <div className="navbar">
       <div>
-        <a href="https://www.github.com/namannangia">Github</a>
+        <a target="_blank" href="https://www.github.com/namannangia">
+          Github
+        </a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/naman-nangia">Linkedin</a>
+        <a target="_blank" href="https://www.linkedin.com/in/naman-nangia">
+          Linkedin
+        </a>
       </div>
       <div>
-        <a href="https://drive.google.com/file/d/1zbQ_bQrZ0uTjr2KyQdqSaB4cWCdxJYCr/view?usp=sharing">
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1zbQ_bQrZ0uTjr2KyQdqSaB4cWCdxJYCr/view?usp=sharing"
+        >
           Resume
         </a>
       </div>
       <div>
-        <a href="https://leetcode.com/me_naman/">LeetCode</a>
+        <a target="_blank" href="https://leetcode.com/me_naman/">
+          LeetCode
+        </a>
       </div>
       <div>
-        <a href="mailto:nangia2002@gmail.com">Email</a>
+        <a target="_blank" href="mailto:nangia2002@gmail.com">
+          Email
+        </a>
       </div>
     </div>
   );

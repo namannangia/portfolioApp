@@ -10,11 +10,11 @@ function Card(props) {
     <div className="OuterDiv">
       <h3
         style={{
-          backgroundColor: "rgba(0,0,0,0.4)",
           width: "30%",
-          borderRadius: "0px 10px 10px 0px",
-          paddingLeft: "10px",
+          borderRadius: "0px 20px 20px 0px",
+          padding: "5px 10px",
           color: "white",
+          backgroundColor: "#27374D",
         }}
       >
         {Type}
@@ -40,6 +40,7 @@ function Card(props) {
                     display: "flex",
                     justifyContent: "center",
                     margin: "0px",
+                    color: "rgba(39, 55, 77,1)",
                   }}
                   key={key}
                 >

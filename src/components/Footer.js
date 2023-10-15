@@ -6,17 +6,21 @@ function Footer() {
       style={{
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "rgba(0,0,0,0.4)",
-        color: "white",
+        backgroundColor: "#526D82",
+        color: "#27374d",
+        fontWeight: "600",
         fontSize: "20px",
+        marginTop: "10px",
       }}
     >
+      <hr style={{ borderColor: "rgb(24, 61, 61)", width: "80vw" }} />
       <div
         style={{
           flex: 1,
           padding: "10px",
           margin: "0px",
           textAlign: "center",
+          fontStyle: "italic",
         }}
       >
         “To say that AI will start doing what it wants for its own purposes is
@@ -28,7 +32,7 @@ function Footer() {
           flex: 1,
           textAlign: "center",
           fontVariant: "small-caps",
-          paddingBottom: "12px",
+          padding: "22px 0px",
         }}
       >
         Naman Nangia •{" "}
